@@ -1,0 +1,154 @@
+#header{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px 10px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+body{
+    margin: 0px;
+}
+#account{
+    background-color: #FFD8DB;
+    color: #5243C0;
+    padding: 8px;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+
+}
+#section a{
+    padding: 8px;
+    cursor: pointer;
+    margin: 15px;
+   
+}
+#section a:hover{
+    text-decoration: underline #5243C0 solid 3px;
+}
+#logo{
+    height: 45px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    display: block;
+
+}
+.dot{
+    color: #5243C0;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    text-align: justify;
+}
+.row{
+    margin-bottom: 2em;
+    display: flex;
+}
+.img{
+    margin-left: 1em;
+}
+#button-new-account{
+    background-color: #5243C0;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.img{
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    height: 44px;
+
+}
+.nav-col{
+    display: flex;
+    flex-direction:column ;
+}
+.checkbox, .userimage{
+    height: 40px;
+    width: 40px;
+}
+.cardtext{
+    white-space: nowrap;
+    font-weight: bold;
+    width: 40%;
+    
+}
+.carddate{
+    color: #c3c3c3;
+}
+.icon{
+    height: 10px;
+    width: 2em;
+    border-radius: 100px;
+    margin-top: 1em;
+
+}
+.card-row{
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 12px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+.card-row:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 12px 2px rgba(230, 230,230, 1);
+
+}
+.color-pink{
+    border-color: #FED7DA;
+    background-color: #FED7DA;
+
+}
+.card-row-card-checked{
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 12px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+.card-row-card-checked:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 12px 2px rgba(230, 230,230, 1); 
+
+}
+.color-red{
+    border-radius: #fd6534;
+    background-color: #fd6534;
+
+}
+.color-green{
+    border-color: #9ED095;
+    background-color: #9ED095;
+}
+.color-yellow{
+    border-color: #FFE4A0;
+    background-color: #FFE4A0;
+}
+.main_section{
+    display: flex;
+    justify-content: space-around;
+}
+#content{
+    width: 32vw;
+    margin-right: 0em;
+   
+}
